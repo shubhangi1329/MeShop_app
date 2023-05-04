@@ -1,0 +1,98 @@
+/* Write styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body{
+    margin:0;
+    padding:0;
+    
+    font-family: 'Inter', sans-serif;
+}
+
+.container1{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    height:50px;
+    flex-wrap: wrap;
+    padding:0 5px;
+}
+.container2{
+    display:flex;
+    color: aliceblue;
+    justify-content:space-around;
+    margin-right: 25px;
+    /* flex-wrap: wrap; */
+    
+
+}
+.ullist{
+    padding:10px;
+    opacity:0.7;
+    
+}
+
+a{
+    text-decoration: none;
+    opacity:0.7;
+    color: aliceblue;
+}
+
+.heading{
+    margin-left:20px;
+    font-size: 20px;
+    font-weight: 2px;
+    font-style:normal!important;
+}
+.line2{
+    margin-left:20px;
+    font-size: 18px;
+    font-weight: 2px;
+    font-style:normal!important;
+    opacity:0.7;
+}
+
+.buttons{
+    display:flex;
+    justify-content:flex-start;
+    margin-left:20px;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+#loginbtn{
+    background-color: black;
+    color: white;
+    height:26px;
+    width:95px;
+    padding:5px;
+    text-align: center;
+}
+
+#signup{
+    background-color: white;
+    color: black;
+    height:23px;
+    width:95px;
+    padding:5px;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+     flex-direction: column; 
+    flex-wrap: wrap;
+    gap:3rem;
+
+}
+
+.image1 img{
+    float: right;
+    width: 70%;
+    z-index: -5;
+    position: relative;
+    top: -5rem;
+}
